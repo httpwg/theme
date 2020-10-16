@@ -13,8 +13,10 @@
     {% endif %}
     
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title and not ( site.suppress_site or page.suppress_site ) %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% if site.title and site.title != page.title %}
+        {% unless site.suppress_site or page.suppress_site %}
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        {% endunless %}
       {% endif %}
       {% if page.title %}
       <h2>{{ page.title }}</h2>
