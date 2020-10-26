@@ -22,9 +22,20 @@ body {
 #col3 {
   z-index: 8;
 }
+
+table {
+  margin-bottom: 2em;
+}
+
+td {
+  padding-right: 2em;
+}
+
 .twtr-icon {
   fill: #00aced;
 }
+
 .octicon {
     fill: #aaa;
 }
+
