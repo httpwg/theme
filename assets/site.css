@@ -27,6 +27,10 @@ table {
   margin-bottom: 2em;
 }
 
+tr:nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
 td {
   padding-right: 2em;
 }
