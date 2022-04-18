@@ -3,6 +3,14 @@ body {
   padding-bottom: 100px;
   height: 100%;
 }
+
+a:not([class*="btn"]) {
+    text-decoration: none;
+}
+a:not([class*="btn"]):hover {
+    text-decoration: underline;
+}
+
 *:not([href])[id]:before  { 
   display: block; 
   content: " "; 
