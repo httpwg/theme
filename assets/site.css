@@ -4,6 +4,15 @@ body {
   height: 100%;
 }
 
+blockquote {
+  font-size: 95%;
+  border-style: solid;
+  border-color: #d2dcdf;
+  border-width: 0 0 0 0.5em;
+  padding-left: 1em;
+  margin: 7px 1em 14px 0;
+}
+
 a:not([class*="btn"]) {
     text-decoration: none;
 }
